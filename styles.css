@@ -3,11 +3,15 @@
     overflow: hidden;
     margin-bottom: 20px;
 }
+
+html,body { height:100%; }
+
 body {
-background-color: #333;
-color: WHITE;
+background-color: whitesmoke;
+color: whitesmoke;
 margin: 0;
 font-family: "Times New Roman", Times, serif;
+height: 100%;
 }
 
 body h1 {
@@ -85,6 +89,14 @@ div.gallery {
     height: auto;
   }
 
+  .resume {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 .responsive {
     padding: 0 6px;
     float: left;
@@ -100,6 +112,9 @@ div.gallery {
   
   @media only screen and (max-width: 500px) {
     .responsive {
+      width: 100%;
+    }
+    .resume{
       width: 100%;
     }
   }
@@ -156,8 +171,20 @@ fonts-and-stuff
   font-family: "Times New Roman", Times, serif;
 }
 
-fonts-and-stuff h1
+.navbar-brand
 {
   font-family: 'Alex Brush';
-  font-size: 22px;
+  font-size: 35px;
+}
+
+.container{
+  background-color: #343a40;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.lists ul li{
+    vertical-align: middle;
+    margin: 0 auto;
+    text-align: left;
 }
