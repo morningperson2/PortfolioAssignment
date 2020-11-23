@@ -89,8 +89,15 @@ div.gallery {
     height: auto;
   }
 
-  .resume {
+  .resume img{
     width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .portrate img{
+    width: 25%;
     height: auto;
     display: block;
     margin-left: auto;
@@ -179,6 +186,7 @@ fonts-and-stuff
 
 .container{
   background-color: #343a40;
+  overflow-y: auto;
   height: 100%;
   margin: 0 auto;
 }
